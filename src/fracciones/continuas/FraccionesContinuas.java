@@ -1,6 +1,6 @@
 package fracciones.continuas;
-
-public class FraccionesContinuas {
+import javax.swing.JFrame;
+public class FraccionesContinuas{
 
     public static void main(String[] args) {
 //        Lista miLista = new Lista();
@@ -14,14 +14,18 @@ public class FraccionesContinuas {
 //        miLista.mostrarListaAdelante();
 //        System.out.println("*****************");
 //        miLista.mostrarListaAtras();
+                   
+        //Division miDivision=new Division();
+        //new Vista().setVisible(true);
+        Ventana v1=new Ventana();
+        v1.setVisible(true);
+        //miDivision.proceso(233, 88);
+//        System.out.println("**********************");
+//        miDivision.miLista.mostrarListaAdelante();
+//        System.out.println("*****************");
+//        System.out.println(miDivision.calcularResultado());
         
-        
-        Division miDivision=new Division();
-        miDivision.proceso(197, 29);
-        System.out.println("**********************");
-        miDivision.miLista.mostrarListaAdelante();
-        System.out.println("*****************");
-        System.out.println(miDivision.calcularResultado());
+       
         
     }
 
